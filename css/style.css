@@ -12,6 +12,12 @@ body {
   box-sizing: border-box;
 }
 
+@media only screen and (min-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+}
+
 .container {
   max-width: 400px;
   width: 100%;
