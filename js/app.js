@@ -32,7 +32,7 @@ const setData = async (city) => {
         card.classList.add('d-none')
         errorEl.classList.remove('d-none')
         label.classList.remove('d-none')
-        errorEl.innerHTML = `${error.message} ${city}`
+        errorEl.innerHTML = `${error.message} <b>${city}</b>`
         setTimeout(() => {
             errorEl.classList.add('d-none')
         }, 5000)
